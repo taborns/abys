@@ -503,6 +503,109 @@ section
 }
 
 /*********************************
+6. Intro
+*********************************/
+
+.intro
+{
+	width: 100%;
+	background: #FFFFFF;
+	padding-top: 96px;
+	padding-bottom: 97px;
+}
+.intro_row
+{
+	margin-top: 98px;
+}
+.intro_dots
+{
+	position: absolute;
+    top: -137px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+	background-size: contain;
+}
+.intro_icon_container
+{
+	width: 143px;
+	height: 143px;
+	border-radius: 50%;
+	background: #d5dfe3;
+}
+.intro_col:nth-child(3) .intro_icon_container
+{
+
+}
+.intro_icon_container::before
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	width: 188px;
+	height: 188px;
+	border-radius: 50%;
+	z-index: 0;
+	background: rgba(213,223,227,0.25);
+	content: '';
+}
+.intro_col:nth-child(3) .intro_icon_container::before
+{
+
+}
+.intro_icon
+{
+	width: 56px;
+	height: 56px;
+}
+.intro_icon img
+{
+	max-width: 100%;
+}
+.intro_item_content
+{
+	padding-top: 66px;
+}
+.intro_item_title
+{
+	font-size: 24px;
+	font-weight: 700;
+	color: #454545;
+	line-height: 1.2;
+}
+.intro_item_text
+{
+	margin-top: 27px;
+}
+.intro_button
+{
+	width: 257px;
+	height: 63px;
+	border-radius: 12px;
+	background: #715691;
+	margin-top: 86px;
+}
+.intro_button:hover
+{
+	background: #1befc5;
+}
+.intro_button a
+{
+	display: block;
+	font-size: 16px;
+	font-weight: 700;
+	color: #FFFFFF;
+	line-height: 63px;
+}
+
+/*********************************
 5. Home
 *********************************/
 
@@ -1289,3 +1392,4 @@ section
 	padding-top: 20px;
 	font-size: 1.4em;
 }
+

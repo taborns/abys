@@ -15,6 +15,7 @@
 <link rel="stylesheet" type="text/css" href="styles/responsive.css">
 <link rel="stylesheet" type="text/css" href="styles/timeline.css">
 <link rel="stylesheet" type="text/css" href="styles/slick.css">
+<link rel="stylesheet" type="text/css" href="styles/slick-theme.css">
 
 <link rel="stylesheet" type="text/css" href="styles/infinite-slider.css" />
 </head>
@@ -93,12 +94,86 @@
 			<div class="row ">
 				<!-- Intro Item -->
 				<p class="col-lg-10 col-lg-offset-1 intro_item_text magic_fade_in" style="text-align: justify">
-					We are pleased to introduce ourselves as pioneers to the Hotel Amenity Supply business. Incorporated under the commercial law of Ethiopia on April 2, 2011, Abyssinian Days was born small as import firm. Back then, a humble beginning importing amenities to our differnt hotel customers has now etended to manufacturing some prodcuts locally in our own premises. So now we proudly announce we are first of its kind full-fledged Hotel amenity manufacturers and supplier in the market leading our way to the future enhancing in quality, quantity and product diversity.
+					We fell honored introducing ourselves as one of a kind full-fledged Hotel Amenity Manufacturer in Ethiopia. We are committed to reaching out practical demands of designated corporates in the hospitality industry. We are proud to serve our customers who aspire to deliver nothing less than the rightful value to their esteemed gusts. That is why we say; at Abyssinian Days “every client is unique” and shall enjoy our personal attention in reward to the long-lasting partnership we want to establish all the way across up to the final users. 
+					With superb service collection, Abyssinian Days provide choices of Toiletry and Amenity supplies available both for Personalization and Fast Delivery. Quality is our mainstay around where we aim to found our excellence. All our Health and Beauty products are tested and certified in recognized labs for their super competence. 
+					Our customer service is as well integral component to the prominent provision we promise to our clients. For further explanation, please use the contact section here under and we will be more than happy to walk you through our business modalities.
 				</p>
 
 			</div>
 		</div>
 	</div>
+
+	<div class="extra_section">
+
+			<div class="section_title justify-content-start text-center">
+				<h2>Endorsements </h2>
+				<div class="endorsement-desc">Hotels said about Abyssinia Days</div>
+				<hr />
+			</div>
+
+			<div class="endorsements">
+			<div>
+				<div class="row">
+					<div class="col-lg-10 offset-lg-1">
+						<div class="section_text section_qoute">
+							<p>
+									Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC.
+							</p>
+							<div class="text-right endorsement-by">
+									<img src="images/hotel9.png"  class="img img-thumbnail"/>
+
+							</div>
+
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+
+			<div>
+				<div class="row">
+					<div class="col-lg-10 offset-lg-1 ">
+						<div class="section_text section_qoute">
+							<p>
+
+								Where does it come from?
+
+								Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+							</p>
+							<div class="endorsement-by">
+									<img src="images/hotel12.png"  class="img img-thumbnail"/>
+							</div>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+
+			<div>
+				<div class="row">
+					<div class="col-lg-10 offset-lg-1">
+						<div class="section_text section_qoute">
+							<p>
+								Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC.
+							</p>
+							<div class="endorsement-by">
+									<img src="images/hotel17.jpg"  class="img img-thumbnail"/>
+							</div>
+						</div>
+
+
+					</div>
+
+
+
+				</div>
+			</div>
+
+		</div>
+		</div>
+
 
 	<!-- Intro -->
 
@@ -320,11 +395,21 @@
 <script src="js/custom.js"></script>
 <script src="js/timeline.js"></script>
 
-<script src="js/slick.js"></script>
-<script src="js/carousel.js" />
+<script src="js/slick-1.8.1/slick/slick.min.js"></script>
 
 
-<script></script>
+<script>
+	$(document).ready(function(){
+		$('.endorsements').slick({
+			dots: true,
+			infinite: true,
+			speed: 300,
+			slidesToShow: 1,
+			adaptiveHeight: true
+
+		});
+	})
+</script>
 
 </body>
 </html>
