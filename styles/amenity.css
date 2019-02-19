@@ -1373,3 +1373,29 @@ section
 .meat-product-images {
 	height: 400px !important;
 }
+
+.endorsement-by img {
+	max-width: 300px;
+	height: auto;
+}
+.byproduct-item {
+	margin-bottom: 50px;
+	border: solid 1px #ddd;
+	padding: 5px;
+	
+}
+
+.byproduct-item .h3 {
+	color: #610000;
+}
+
+.trade-item{
+	padding: 10px;
+	border: solid 1px gray;
+}
+
+.trade-item .trade-item-image img{
+	
+	width: 100%;
+	
+}
